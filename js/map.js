@@ -1,6 +1,6 @@
 var data = "";
 var data2 = "";
-    d3.json("/data/neighborhoods.json").then((jsonData) => {
+    d3.json("../data/neighborhoods.json").then((jsonData) => {
             data = jsonData
             for (var i = 0; i < data.features.length; i++) {
                 var obj = data.features[i];
@@ -71,7 +71,7 @@ var data2 = "";
         //where is this loading?
         var listings = svg.append( "g" );
             
-            d3.json("/data/neighborhood_data.json").then((jsonNData) => {
+            d3.json("../data/neighborhood_data.json").then((jsonNData) => {
                 console.log(jsonNData)
                 data2 = jsonNData
             })
