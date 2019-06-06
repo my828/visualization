@@ -16,7 +16,7 @@ var data2 = "";
 
         var width = 960;
         var height = 580;
-        d3.csv('./data/population.csv').then((data) => {
+        d3.csv('../data/population.csv').then((data) => {
             console.log(data)
         })
         let tooltip = d3.select("body")
