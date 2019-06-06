@@ -1,6 +1,6 @@
 var data = "";
 var data2 = "";
-    d3.json("/data/neighborhoods.json").then((jsonData) => {
+    d3.json("../data/neighborhoods.json").then((jsonData) => {
             data = jsonData
             for (var i = 0; i < data.features.length; i++) {
                 var obj = data.features[i];
