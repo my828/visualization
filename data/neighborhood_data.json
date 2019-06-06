@@ -1,0 +1,11 @@
+{
+    "type": "FeatureCollection",                                                                               
+    "features": [
+        { 
+            "type": "Feature", "id": 1, "properties": { "CASE_ENQUIRY_ID": 101000833162.0, "OPEN_DT": "05\/03\/2013 11:12:12 AM", "CLOSED_DT": null, "CASE_STATUS": "Open", "CLOSURE_REASON": "", "CASE_TITLE": "Rodent Activity", "SUBJECT": "Inspectional Services", "REASON": "Environmental Services", "TYPE": "Rodent Activity", "QUEUE": "ISD_Environmental Services (INTERNAL)", "Department": "ISD", "Location": "85 Pike St, Seattle, WA 98101", "fire_district": 11, "pwd_district": "04", "city_council_district": 9, "police_district": "D14", "neighborhood": "Downtown Seattle", "neighborhood_services_district": 15, "ward": "Ward 22", "precinct": 2211, "land_usage": "R2", "LOCATION_STREET_NAME": "85 Pike St", "LOCATION_ZIPCODE": 98101, "LATITUDE": 47.6084, "LONGITUDE": 122.3405, "Source": "Constituent Call" }, "geometry": { "type": "Point", "coordinates": [ 122.3405, 47.6084 ] } }
+,
+        {   
+            "type": "Feature", "id": 2, "properties": { "CASE_ENQUIRY_ID": 101000832197.0, "OPEN_DT": "05\/02\/2013 10:04:13 AM", "CLOSED_DT": null, "CASE_STATUS": "Open", "CLOSURE_REASON": "", "CASE_TITLE": "Rodent Activity", "SUBJECT": "Inspectional Services", "REASON": "Environmental Services", "TYPE": "Rodent Activity", "QUEUE": "ISD_Environmental Services (INTERNAL)", "Department": "ISD", "Location": "1701 Broadway, Seattle, WA 98122", "fire_district": 3, "pwd_district": "1B", "city_council_district": 1, "police_district": "A1", "neighborhood": "Capitol Hill", "neighborhood_services_district": 3, "ward": "Ward 3", "precinct": 304, "land_usage": "A", "LOCATION_STREET_NAME": "1701 Broadway", "LOCATION_ZIPCODE": 98122, "LATITUDE": 47.6159, "LONGITUDE": 122.3215, "Source": "Constituent Call" }, "geometry": { "type": "Point", "coordinates": [ 122.3215, 47.6159 ] } }
+        
+    ]
+}
