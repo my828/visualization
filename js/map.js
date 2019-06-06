@@ -1,6 +1,6 @@
 var data = "";
 var data2 = "";
-    d3.json("../data/neighborhoods.json").then((jsonData) => {
+    d3.json("/data/neighborhoods.json").then((jsonData) => {
             data = jsonData
             for (var i = 0; i < data.features.length; i++) {
                 var obj = data.features[i];
@@ -16,7 +16,7 @@ var data2 = "";
 
         var width = 960;
         var height = 580;
-        d3.csv('/data/population.csv').then((data) => {
+        d3.csv('./data/population.csv').then((data) => {
             console.log(data)
         })
         let tooltip = d3.select("body")
@@ -69,22 +69,22 @@ var data2 = "";
             });
 
         //where is this loading?
-        var listings = svg.append( "g" );
+        // var listings = svg.append( "g" );
             
-            d3.json("../data/neighborhood_data.json").then((jsonNData) => {
-                console.log(jsonNData)
-                data2 = jsonNData
-            })
-            .then(function(){
-            listings.selectAll( "path" )
-                .data( data2.features )
-                .enter()
-                .append( "path" )
-                .attr( "fill", "#900" )
-                .attr( "stroke", "#999" )
-                .attr( "d", geoPath );
-                console.log(listings)
-            })  
+        //     d3.csv("../data/neighborhood_data.json").then((jsonNData) => {
+        //         console.log(jsonNData)
+        //         data2 = jsonNData
+        //     })
+        //     .then(function(){
+        //     listings.selectAll( "path" )
+        //         .data( data2.features )
+        //         .enter()
+        //         .append( "path" )
+        //         .attr( "fill", "#900" )
+        //         .attr( "stroke", "#999" )
+        //         .attr( "d", geoPath );
+        //         console.log(listings)
+        //     })  
     }
 
             
